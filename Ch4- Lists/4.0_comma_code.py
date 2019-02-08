@@ -4,27 +4,27 @@
 
 
 #prompts user to enter individual items
-user_item_list = []
+userItemList = []
 print('Please add more than 2 items.')
 while True:
-    print('Enter item ' + str(len(user_item_list) + 1) + ' (Or enter nothing to stop.):')
-    user_item = input()
-    if user_item == '':
+    print('Enter item ' + str(len(userItemList) + 1) + ' (Or enter nothing to stop.):')
+    userItem = input()
+    if userItem == '':
         break
-    user_item_list += [user_item]
+    userItemList += [userItem]
     
 
 #defines sentence function
-def sentence(item_list):
+def sentence(itemList):
     sentence = ""
-    for item in item_list[:-1]:  #combines all items except last
+    for item in itemList[:-1]:  #combines all items except last
         sentence += item + ', '
-    sentence += 'and ' + item_list[-1]  #appends last item
+    sentence += 'and ' + itemList[-1]  #appends last item
     print(sentence)
 
 
-#calls sentence function on entry
-sentence(user_item_list)
+#calls sentence function on userItemList
+sentence(userItemList)
 
 
 
