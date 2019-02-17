@@ -1,6 +1,6 @@
-#automate the boring stuff
-#chapter 4 - lists
-#character picture guide - program that prints a given list of lists
+# Automate the boring stuff
+# Chapter 4 - Lists
+# Character picture guide - program that prints a given list of lists.
 
 grid = [['.', '.', '.', '.', '.', '.'],
         ['.', 'O', 'O', '.', '.', '.'],
@@ -13,7 +13,7 @@ grid = [['.', '.', '.', '.', '.', '.'],
         ['.', '.', '.', '.', '.', '.']]
 
 
-#defines printing function
+# defines printing function
 def gridPrint(entry):
     for y in range(len(entry[0])):
         for x in range(len(grid)):
@@ -21,5 +21,5 @@ def gridPrint(entry):
         print('')
 
             
-#calls gridPrint function on entry
+# calls gridPrint function on entry
 gridPrint(grid)

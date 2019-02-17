@@ -1,8 +1,8 @@
-#automate the boring stuff
-#chapter 3 - functions
-#collatz program - program that performs a collatz function on a given number
+# Automate the Boring Stuff
+# Chapter 3 - Functions
+# Collatz Program - Program that performs a collatz function on a given number.
 
-#defines collatz function
+# defines collatz function
 def collatz(number):
     if number % 2 == 0:
         number = (number // 2)
@@ -11,7 +11,7 @@ def collatz(number):
     return number
 
 
-#prompts user to enter a number
+# prompts user to enter a number
 guess = None
 while guess is None:
     try:
@@ -20,7 +20,7 @@ while guess is None:
         print('Please enter a valid integer.')
 
 
-#repeats collatz function until 1 is reached
+# repeats collatz function until 1 is reached
 print(guess)
 
 while guess != 1:

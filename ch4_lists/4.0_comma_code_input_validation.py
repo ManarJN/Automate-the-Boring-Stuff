@@ -1,9 +1,9 @@
-#automate the boring stuff
-#chapter 4 - lists
-#comma code - program that adds commas between a given list of items
+# Automate the Boring Stuff
+# Chapter 4 - lists
+# Comma Code - Program that adds commas between a given list of items.
 
 
-#prompts user to enter individual items
+# prompts user to enter individual items
 userItemList = []
 print('Please add more than 2 items.')
 while True:
@@ -14,7 +14,7 @@ while True:
     userItemList += [userItem]
     
 
-#defines sentence function
+# defines sentence function
 def sentence(itemList):
     sentence = ""
     for item in itemList[:-1]:  #combines all items except last
@@ -23,7 +23,7 @@ def sentence(itemList):
     print(sentence)
 
 
-#calls sentence function on userItemList
+# calls sentence function on userItemList
 sentence(userItemList)
 
 
