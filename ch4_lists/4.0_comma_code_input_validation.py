@@ -4,6 +4,7 @@
 
 
 # prompts user to enter individual items
+# prompting ends when entry is blank
 userItemList = []
 print('Please add more than 2 items.')
 while True:
@@ -17,9 +18,9 @@ while True:
 # defines sentence function
 def sentence(itemList):
     sentence = ""
-    for item in itemList[:-1]:  #combines all items except last
+    for item in itemList[:-1]:  # combines all items except last
         sentence += item + ', '
-    sentence += 'and ' + itemList[-1]  #appends last item
+    sentence += 'and ' + itemList[-1]  # appends last item
     print(sentence)
 
 
