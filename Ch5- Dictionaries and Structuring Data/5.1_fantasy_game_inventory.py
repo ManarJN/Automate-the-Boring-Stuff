@@ -1,9 +1,9 @@
 #automate the boring stuff
 #chapter 5 - dictionaries and structuring data
-#fantasy game inventory
+#fantasy game inventory - program that prints and edits a given inventory list
 
 
-#defines function that lists items in an inventory and amount
+#defines function that lists items in an inventory and their amounts
 def displayInventory(inventory):
     print("Inventory:")
     item_total = 0
