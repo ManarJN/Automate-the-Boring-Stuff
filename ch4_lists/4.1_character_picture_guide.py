@@ -1,6 +1,6 @@
 # Automate the boring stuff
 # Chapter 4 - Lists
-# Character picture guide - program that prints a given list of lists.
+# Character Picture Guide - Prints a given list of lists.
 
 grid = [['.', '.', '.', '.', '.', '.'],
         ['.', 'O', 'O', '.', '.', '.'],

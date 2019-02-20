@@ -1,6 +1,6 @@
 # Automate the Boring Stuff
 # Chapter 5 - Dictionaries and Structuring Data
-# Fantasy Game Inventory - Program that prints and edits a given inventory list.
+# Fantasy Game Inventory - Prints and edits a given inventory list.
 
 
 # defines function that lists items in an inventory and their amounts

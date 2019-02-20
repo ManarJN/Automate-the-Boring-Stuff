@@ -1,6 +1,6 @@
 # Automate the Boring Stuff
 # Chapter 3 - Functions
-# Collatz Program - Program that performs a collatz function on a given number.
+# Collatz Program - Performs a collatz function on a given number.
 
 # defines collatz function
 def collatz(number):

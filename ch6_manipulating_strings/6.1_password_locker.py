@@ -2,7 +2,7 @@
 
 # Automate the Boring Stuff
 # Chapter 6- Manipulating Strings
-# Password Locker - A program that insecurely stores passwords.
+# Password Locker - Insecurely stores passwords.
 
 PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFtjVB6',
              'blog': 'VmALvQyKAxiVH5G8v01if1MLZF3sdt',

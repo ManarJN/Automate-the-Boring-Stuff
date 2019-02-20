@@ -2,7 +2,7 @@
 
 # Automate the Boring Stuff
 # Chapter 6- Manipulating Strings
-# Table Printer - Program that displays a given list of strings in a neat table.
+# Table Printer - Displays a given list of strings in a neat table.
 
 tableData = [['apples', 'oranges', 'cherries', 'banana'],
              ['Alice', 'Bob', 'Carol', 'David'],

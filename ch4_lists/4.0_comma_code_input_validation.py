@@ -1,6 +1,6 @@
 # Automate the Boring Stuff
 # Chapter 4 - lists
-# Comma Code - Program that adds commas between a given list of items.
+# Comma Code - Adds commas between a given list of items.
 
 
 # prompts user to enter individual items
