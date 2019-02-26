@@ -3,6 +3,8 @@
 # Automate the Boring Stuff
 # Chapter 6- Manipulating Strings
 # Password Locker - Insecurely stores passwords.
+    # Usage: to run program from terminal, type './6.1_password_locker.py <arg>'
+    #        e.g. './6.1_password_locker.py email' returns 'F7minlBDDuvMJuxESSKHFhTxFtjVB6'
 
 PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFtjVB6',
              'blog': 'VmALvQyKAxiVH5G8v01if1MLZF3sdt',
@@ -30,5 +32,3 @@ else:
 
 
 
-# to run program from terminal, type './6.1_password_locker.py args'
-# e.g. './6.1_password_locker.py email' returns 'F7minlBDDuvMJuxESSKHFhTxFtjVB6'
