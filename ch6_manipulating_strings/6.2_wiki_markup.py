@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 # Automate the Boring Stuff
 # Chapter 6- Manipulating Strings
 # Wiki Markup - Adds Wikipedia bullet points to the start of each

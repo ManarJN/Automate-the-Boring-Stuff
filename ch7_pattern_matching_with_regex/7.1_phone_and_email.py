@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 # Automate the Boring Stuff
 # Chapter 7- Pattern Matching with Regex
 # Phone and Email - Finds phone numbers and email addresses on the clipboard.
@@ -22,7 +24,7 @@ emailRegex = re.compile(r'''(
     (\.[a-zA-Z]{2,4})      # dot-something
     )''', re.VERBOSE)
 
-# TODO: Find matches in clipboard text.
+# finds matches in clipboard text
 text = str(pyperclip.paste())
 matches = []
 for groups in phoneRegex.findall(text):
@@ -33,7 +35,7 @@ for groups in phoneRegex.findall(text):
 for groups in emailRegex.findall(text):
     matches.append(groups[0])
 
-# TODO: Copy results to the clipboard.
+# copies results to the clipboard
 if len(matches) > 0:
     pyperclip.copy('\n'.join(matches))
     print('Copied to clipboard:')

@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 # Automate the Boring Stuff
 # Chapter 6- Manipulating Strings
 # Table Printer - Displays a given list of strings in a neat table.
