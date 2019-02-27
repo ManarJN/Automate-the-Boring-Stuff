@@ -11,7 +11,7 @@
 
 import shelve, pyperclip, sys   #sys allows program to read terminal commands
 
-mcbShelf = shelve.open('./8.2_shelves/mcb')   # new piece of clipboard text will be saved to a shelf file
+mcbShelf = shelve.open('./8.2_files/8.2_shelf_clipboard/mcb')   # new piece of clipboard text will be saved to a shelf file
 
 # saves clipboard content
 if len(sys.argv) == 3 and sys.argv[1].lower() == 'save':   # saves key and copied text to clipboard

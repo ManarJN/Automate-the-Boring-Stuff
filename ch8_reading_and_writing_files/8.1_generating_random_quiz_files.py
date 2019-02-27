@@ -31,8 +31,8 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
 for quizNum in range(10):
     
     # creates quiz and answer key files
-    quizFile = open('./8.1_files/capitalsquiz%s.txt' % (quizNum + 1), 'w')
-    answerKeyFile = open('./8.1_files/capitalsquiz_answers%s.txt' % (quizNum + 1), 'w')
+    quizFile = open('./8.1_files/8.1_output_quizzes/capitalsquiz%s.txt' % (quizNum + 1), 'w')
+    answerKeyFile = open('./8.1_files/8.1_output_answers/capitalsquiz_answers%s.txt' % (quizNum + 1), 'w')
 
     # writes out the header for the quiz
     quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')
