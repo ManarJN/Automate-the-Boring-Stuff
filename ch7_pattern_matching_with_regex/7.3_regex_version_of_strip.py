@@ -8,7 +8,7 @@ import re
 
 # defines strip function
 def regexStrip(string, remove=''):
-    if remove == '':   # if no characters are specified, strip whitespace characters
+    if remove == '':  # if no characters are specified, strip whitespace characters
         stripLeft = re.compile(r'^\s*')
         stripRight = re.compile(r'\s*$')
         

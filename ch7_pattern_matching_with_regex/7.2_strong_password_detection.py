@@ -7,10 +7,10 @@
 import re
 
 # creates password regex
-pwLowCase = re.compile(r'[a-z]')   # checks for a lowercase letter
-pwUpCase = re.compile(r'[A-Z]')    # checks for an uppercase letter
-pwNum = re.compile(r'\d')          # checks for a number
-pwSpace = re.compile(r'\s')        # checks for spaces, tabs, or newline characters
+pwLowCase = re.compile(r'[a-z]')  # checks for a lowercase letter
+pwUpCase = re.compile(r'[A-Z]')   # checks for an uppercase letter
+pwNum = re.compile(r'\d')         # checks for a number
+pwSpace = re.compile(r'\s')       # checks for spaces, tabs, or newline characters
 
 # defines pw strength checker function on user input
 def pwRegex(password):

@@ -47,21 +47,21 @@ for quizNum in range(10):
     for questionNum in range(50):
         
         #gets right and wrong ansewrs
-        correctAnswer = capitals[states[questionNum]]         # loops through the shuffled states list, finds each state in capitals, and stores the state's coresponding capital in correct answer
-        wrongAnswers = list(capitals.values())                # duplicates all values in capitals dictionary
-        del wrongAnswers[wrongAnswers.index(correctAnswer)]   # deletes the correct answer
-        wrongAnswers = random.sample(wrongAnswers, 3)         # selects 3 random values from the list    
-        answerOptions = wrongAnswers + [correctAnswer]        # combines 3 wrong answers and right answer into a list
-        random.shuffle(answerOptions)                         # randomizes answers so correct response isn't always D
+        correctAnswer = capitals[states[questionNum]]        # loops through the shuffled states list, finds each state in capitals, and stores the state's coresponding capital in correct answer
+        wrongAnswers = list(capitals.values())               # duplicates all values in capitals dictionary
+        del wrongAnswers[wrongAnswers.index(correctAnswer)]  # deletes the correct answer
+        wrongAnswers = random.sample(wrongAnswers, 3)        # selects 3 random values from the list    
+        answerOptions = wrongAnswers + [correctAnswer]       # combines 3 wrong answers and right answer into a list
+        random.shuffle(answerOptions)                        # randomizes answers so correct response isn't always D
 
         # writes the question and answer options to the quiz file
         quizFile.write('%s. What is the capital of %s?\n' %(questionNum + 1, states[questionNum]))
         for i in range(4):   
-            quizFile.write(' %s. %s\n' % ('ABCD'[i], answerOptions[i]))   # 'ABCD'[i] treats 'ABCD' as an array and loops through each letters
+            quizFile.write(' %s. %s\n' % ('ABCD'[i], answerOptions[i]))  # 'ABCD'[i] treats 'ABCD' as an array and loops through each letters
         quizFile.write('\n')
 
         # writes the answer key to a file
-        answerKeyFile.write('%s. %s\n' % (questionNum + 1, 'ABCD'[answerOptions.index(correctAnswer)]))   # finds integer index of correct answer 
+        answerKeyFile.write('%s. %s\n' % (questionNum + 1, 'ABCD'[answerOptions.index(correctAnswer)]))  # finds integer index of correct answer 
 
 quizFile.close()
 answerKeyFile.close()
