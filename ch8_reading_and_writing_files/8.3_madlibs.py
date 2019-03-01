@@ -7,9 +7,9 @@
 import re
 
 # reads madlibs file
-madlibFile = open('./8.3_files/8.3_input_madlibs/madlib.txt')
+madlibFile = open('./8.3_files/input_madlibs/madlib.txt')
 madlibText = madlibFile.read()
-madlibFile.close
+madlibFile.close()
 
 
 #regex
@@ -34,7 +34,7 @@ for item in madlibList:
 
 
 # ouputs new file with user text
-madlibOutput = open('./8.3_files/8.3_output_madlibs/madlib_result', 'w')
+madlibOutput = open('./8.3_files/output_madlibs/madlib_result', 'w')
 madlibOutput.write(madlibText)
 madlibOutput.close()
 print('Madlib has been saved.')
