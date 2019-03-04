@@ -18,12 +18,12 @@ def gapFinder(source, destination, prefix):
         if match is None:
             continue
         numberList += [int(match.group(1))]  # creates list of file numbers in integer form
-
-            
+    
     # checks if file numbering and number of files in folder don't match
-    if (max(numberList) - min(numberList) + 1) > len(os.listdir(source)):
-        item = min(numberList)
+    if (max(numberList) - min(numberList) + 1) > len(files):
+        item = min(numberList)  # in case file numbering starts at a number other than 1
         for file in files:
+
             # run regex search again
             match = regex.search(file)
             if match is None:
