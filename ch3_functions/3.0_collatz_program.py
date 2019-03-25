@@ -2,6 +2,7 @@
 # Chapter 3 - Functions
 # Collatz Program - Performs a collatz function on a given number.
 
+
 # defines collatz function
 def collatz(number):
     if number % 2 == 0:
