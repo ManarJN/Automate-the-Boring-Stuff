@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 # Automate the Boring Stuff
 # Chapter 10 - Debugging
 # Debugging Coin Toss - Simulates a coin toss game.
